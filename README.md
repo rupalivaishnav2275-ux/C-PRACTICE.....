@@ -7,17 +7,17 @@ This repository contains my C Programming Practice Programs.
 <br>
 Topics covered:
 <br>
-1 - Variables
+1 - Variables, Data types + Input/Output
 <br>
-2 - Data types + Input/Output
+2 - Instructions & Operators
 <br>
-3 - Instructions & Operators
+3 - Conditional Statements
 <br>
-4 - Conditional Statements
+4 - Loop Control Statements
 <br>
-5 - Loop Control Statements
+5 - Functions 
 <br>
-6 - Functions & Recursion
+6 - Recursion
 <br>
 7 - Pointers
 <br>
