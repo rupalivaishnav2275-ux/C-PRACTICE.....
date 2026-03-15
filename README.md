@@ -1,10 +1,10 @@
 
 # c-programming-practice
-"PRACTICING C LANGUAGE ".....
+"Practicing C Language".....
 <br>
-" SOLVING PROBLEMS ON 'LEETCODE'..."
+" Solving Problems On 'LeetCode'..."
 <br>
-This repository contains my C programming practice programs.
+This repository contains my C Programming Practice Programs.
 <br>
 Topics covered:
 <br>
