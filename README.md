@@ -38,7 +38,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ##  ─── 🎯 Goal ───
 
 * 🔥 Solve **300 Problems in 6 Months**
-<br>
+
 * ⚡ Master **C Programming Fundamentals**
 
 ---
@@ -113,8 +113,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 [![C](https://img.shields.io/badge/C-Programming-blue?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 <br>
-[![VS Code](https://img.shields.io/badge/VS_Code-Editor-blue?style=for-the-badge&logo=visualstudiocode)]
-(https://code.visualstudio.com/)
+[![VS Code](https://img.shields.io/badge/VS_Code-Editor-blue?style=for-the-badge&logo=visualstudiocode)](https://code.visualstudio.com/)
 <br>
 [![Git](https://img.shields.io/badge/Git-Version_Control-orange?style=for-the-badge&logo=git)](https://git-scm.com/)
 <br>
@@ -128,10 +127,10 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ## ─── 📁 Folder Structure ───
 
 ```bash
-**c-programming-practice/
+  c-programming-practice/
  ├── 01_hello_world.c
  ├── 02_variables.c
- └── README.md**
+ └── README.md
 ```
 
 ---
@@ -152,7 +151,6 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ## ─── 🔗 Source Code Links ───
 
 - 🔹 [01_hello_world.c](./01_hello_world.c)
-<br>
 - 🔹 [02_variables.c](./02_variables.c)
 
 
@@ -163,9 +161,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ## ─── ✨ Future Plans ───
 
 * 📌 Topic-wise folders (Loops, Arrays, etc.)
-<br>
 * 📌 Add explanations for each problem
-<br>
 * 📌 Add advanced C concepts
 
 ---
@@ -175,11 +171,11 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ## ─── 🧠 Learning Strategy ───
 
 - Solve problems daily
-<br>
+
 - Focus on logic building
-<br>
+
 - Revise concepts weekly
-<br>
+
 - Maintain consistency over perfection
 
 ---
