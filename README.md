@@ -95,7 +95,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ## ─── 📚 Learning Platform ───
 
-<img src="https://yt3.googleusercontent.com/ytc/AL5GRJV..." width="120"/>
+<img src="https://img.youtube.com/vi/1e6h7Gf7gZk/0.jpg" width="200"/>
 
 - [Apna College] (https://www.youtube.com/@ApnaCollegeOfficial ───
 
