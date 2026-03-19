@@ -18,7 +18,7 @@
 // cd path_to_your_file
 
 // Step 3: Compile the program
-// gcc 01_hello_world.c -o hello
+// gcc 01-hello-world.c -o hello
 
 // Step 4: Run the program
 // hello
