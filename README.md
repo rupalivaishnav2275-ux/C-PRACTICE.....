@@ -167,8 +167,11 @@ I am consistently solving problems and improving my **problem-solving skills**.
 - 🔹 [02-variables.c](./02-variables.c)
 - 🔹 [03-instructions.c](./03-instructions.c)
 - 🔹 [04-operators.c](./04-operators.c)
+- 🔹 [05-conditional-statements.c](./05-conditional-statements.c)
+- 🔹 [06-loops.c](./06-loops.c)
+- 🔹 [07-functions.c](./07-ofunctions.c)
 
-  
+
 ---
 <img src="https://user-images.githubusercontent.com/74038190/212284100-6d0f0d6e-1b0c-4c63-9c69-61e3c6c6a5d3.gif"/>
 
