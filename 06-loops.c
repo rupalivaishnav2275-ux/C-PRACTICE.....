@@ -1,9 +1,10 @@
 // Program: Loops in C
-// Description: Demonstrates all looping concepts, keywords, and practice problems.
+// Description: Demonstrates all looping concepts, keywords, and practice questions.
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own notes and understanding)
+
 // Compiler: GCC (MinGW)
 // OS: Windows
 
@@ -92,6 +93,26 @@
 // A loop inside another loop
 
 // ======================================================
+// 🔹 LEARNINGS, INSIGHTS & COMMON MISTAKES
+// ======================================================
+
+// Notes:
+// - I understand that loops help execute code multiple times without repetition
+// - I noticed that different loops (for, while, do-while) are used in different situations
+// - I practiced multiple examples to understand loop behavior and flow
+
+// Important Points:
+// - for loop is best when number of iterations is known
+// - while loop is useful when condition is based
+// - do-while loop runs at least once even if condition is false
+// - break exits the loop and continue skips an interation
+
+// Mistakes:
+// - I created infinite loops by missing update condition
+// - I used wrong loop conditions and got incorrect output
+// - I forgot how break and continue affect loop flow
+
+// ======================================================
 // 🔹 CODE IMPLEMENTATION
 // ======================================================
 
@@ -104,6 +125,7 @@
 void fibonacci(int n) {
     int a = 0, b = 1, next;
 
+    printf("\nGenerating Fibonacci series using function...\n");
     printf("Fibonacci Series: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", a);
