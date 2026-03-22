@@ -3,7 +3,7 @@
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own notes and practice)
 // Compiler: GCC (MinGW)
 // OS: Windows
 
@@ -85,7 +85,7 @@
 // }
 
 // ======================================================
-// 🔹 6️⃣ TERNARY OPERATOR (IMPORTANT)
+// 🔹 6️⃣ TERNARY OPERATOR 
 // ======================================================
 
 // Definition:
@@ -98,13 +98,24 @@
 // max = (a > b) ? a : b;
 
 // ======================================================
-// 🔹 LEARNINGS & COMMON MISTAKES
+// 🔹 LEARNINGS, INSIGHTS & COMMON MISTAKES
 // ======================================================
 
-// ✔ Conditions return 0 (false) or 1 (true)
-// ✔ Use == for comparison, not =
-// ✔ Always use break in switch
-// ✔ Ternary is only for simple conditions
+// Notes: 
+// - I understood that conditional statements help in decision making in programs
+// - I noticed that every condition returns 0 (false) or 1 (true)
+// - I practiced different cases to understand how program flow changes
+// - This topic helped me control the flow of execution based on conditions
+
+// Important Points:
+// - I learned to use '==' for comparison and '=' for assignment
+// - break is important in switch to stop execution of other cases
+// - Ternary operator is useful for short and simple conditions
+
+// Mistakes:
+// - I used '=' instead of '==' and got wrong results
+// - I forgot break in switch and multiple cases executed
+// - I wrote incorrect conditions and got unexpected output
 
 // ======================================================
 // 🔹 CODE IMPLEMENTATION
@@ -160,7 +171,7 @@ int main() {
     // ==================================================
 
     printf("\n--- NESTED IF ---\n");
-    if (num >= 0) {
+    if (num > 0) {
         if (num % 2 == 0) {
             printf("Even number\n");
         } else {
@@ -203,6 +214,7 @@ int main() {
     // 🔹 PRACTICE 1: ARMSTRONG NUMBER
     // ==================================================
 
+    printf("\nChecking Armstrong number logic...\n");
     int n, original, remainder, result = 0;
     printf("\nEnter a number (Armstrong check): ");
     scanf("%d", &n);
