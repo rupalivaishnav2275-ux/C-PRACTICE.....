@@ -1,9 +1,9 @@
-// Program: Variables And Data Types
+// Program: Variables And Data Types in C
 // Description: Demonstrates variables, data types, constants, input/output, and practice questions.
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own notes and practice)
 
 // Compiler: GCC (MinGW)
 // OS: Windows 
@@ -23,7 +23,7 @@
 // 🔹 DEFINITIONS
 // ======================================================
 
-// Variable: A container used to store data values.
+// Variable: Stores a value that can change during execution.
 // Data Types: Specifies the type of data a variable can store.
 // Constant: Fixed value that cannot be changed during execution.
 // Comments: Lines ignored by the compiler, used for explanation.
@@ -115,20 +115,24 @@ printf("Sum = %d", sum);
 // ======================================================
 
 // Notes:
-// - int is used for integers
-// - float is used for decimal numbers
+// - I understood that int stores whole numbers only
+// - float helps store decimal values like 3.14
 // - char is used for single characters
-// - printf() is used to display output
+// - printf() displays output on screen
+// - This topic helped me understand how data is stored and used in programs
 
 // Important Points:
 // - %d is used for int 
 // - %f is used for float 
 // - %c is used for char
 // - Variables can be reassigned
+// - I noticed that scanf() needs '&' to store value in variable
+// - Integer division removes decimal part (e.g., 7/2 = 3)
 
 // Mistakes:
-// - Forgot format specifiers earlier
-// - Confused between %d and %f
+// - I forgot format specifiers and got incorrect output
+// - I missed '&' in scanf which caused errors
+// - I confused %d (int) with %f (float)
 
 #include <stdio.h>
 
@@ -167,8 +171,8 @@ int main () {
     printf("pi = %f\n", pi);
     printf("a = %d\n", a);
     printf("b = %d\n", b);
-    printf("_age = %d\n" , _age);
-    printf("initial price = %d\n" , initial_price);
+    printf("_age = %d\n", _age);
+    printf("initial price = %d\n", initial_price);
 
 // ==================================================
 // 🔹 INPUT EXAMPLE (SUM)
@@ -206,8 +210,19 @@ int main () {
     printf("Cube = %d\n", cube);
 
     // 3. Comments Example:
+    // Example of single-line comment
     // This program calculates perimeter
-    /* This program calculates cube of a number */
-
+    
+    /* Example of multi-line comment
+    This program calculates the cube of a number */
+    
+    // Custom Example: Check even or odd
+    printf("\nChecking if number is even or odd...\n");
+    if (n % 2 == 0) {
+        printf("Number is Even\n");
+    } else {
+        printf("Number is Odd\n");
+    }    
+    
     return 0;
 }
