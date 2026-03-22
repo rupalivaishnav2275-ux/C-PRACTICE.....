@@ -3,7 +3,8 @@
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own notes and practice)
+
 // Compiler: GCC (MinGW)
 // OS: Windows
 
@@ -95,22 +96,23 @@
 // 🔹 LEARNINGS, INSIGHTS & COMMON MISTAKES
 // ======================================================
 
-//  NOTES:
-// - Functions improve code reusability
-// - Code becomes modular and readable
-// - Library functions save time
+// NOTES:
+// - I understood that functions help in reusing code and avoiding repetition
+// - I noticed that breaking code into functions makes it more readable and organized
+// - I practiced calling functions multiple times with different inputs
+// - This topic helped me think in a modular way while writing programs
 
-//  IMPORTANT POINTS:
-// - Function must be declared before use (or use prototype)
-// - Match data types of return and parameters
-// - Use -lm for math functions (sqrt, pow)
-// - Always include required header files
+// IMPORTANT POINTS:
+// - Function should be declared before use (or use prototype)
+// - Return type must match the returned value
+// - Parameters receive values and arguments send values
+// - -lm flag is required for math functions like sqrt()
 
-//  COMMON MISTAKES:
-// - Forgetting to return value in non-void function
-// - Mismatch in parameter and argument types
-// - Missing function prototype
-// - Not linking math library (-lm)
+// MISTAKES:
+// - I Forgot to return value in non-void function
+// - I mismatched parameter and argument data types
+// - I didn't declare function before calling it
+// - I forgot to link math library (-lm) and got error
 // - Using wrong format specifier (e.g., %d instead of %lf)
 
 
@@ -135,6 +137,7 @@ int main() {
     // 🔹 FUNCTION CALL EXAMPLE
     // ==================================================
 
+    printf("Calling function to check temperature...\n");
     printf("\n--- FUNCTION CALL ---\n");
 
     checkTemperature(35.5);
@@ -183,9 +186,9 @@ void checkTemperature(float temp) {
 
     // Using conditional logic
     if (temp > 25) {
-        printf("Hot\n");
+        printf("Temperature is Hot\n");
     } else {
-        printf("Cold\n");
+        printf("Temperature is Cold\n");
     }
 }
 
